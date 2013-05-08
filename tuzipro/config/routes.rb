@@ -1,4 +1,5 @@
 Tuzipro::Application.routes.draw do
+  root :to => 'dhy#index', :as => :welcome
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
