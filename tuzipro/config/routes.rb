@@ -1,5 +1,6 @@
 Tuzipro::Application.routes.draw do
   root :to => 'dhy#index', :as => :welcome
+  match 'dhy' => 'dhy#dhy', :as => :dhy
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
